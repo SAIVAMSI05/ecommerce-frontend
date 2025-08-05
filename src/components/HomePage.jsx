@@ -8,7 +8,7 @@ const HomePage = () => {
   const navigate = useNavigate();
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem("token"));
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
+-
   useEffect(() => {
     const handleStorageChange = () => {
       setIsAuthenticated(!!localStorage.getItem("token"));
@@ -33,7 +33,7 @@ const HomePage = () => {
     <div className="container">
       {/* Header */}
       <div className="header">
-        <h1>E-Commerce</h1>
+        <h1>E-Commerce SAI VAMSI 2300033869</h1>
         <div className="header-right">
           {isAuthenticated ? (
             <div className="profile-menu">
